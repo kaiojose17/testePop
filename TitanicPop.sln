@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{FD5F8D4A-8398-4457-A5C9-46A9B3A4065D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanicPop.WebApi", "TitanicPop.WebApi\TitanicPop.WebApi.csproj", "{EF8FBDE9-56DA-40B1-8123-99924339CE86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commom", "Commom", "{C6D312D2-EE27-47E2-9F1C-1ED0C1BB18CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanicaPop.Commom", "TitanicaPop.Commom\TitanicaPop.Commom.csproj", "{4D24FA7C-19A3-4C64-A5B0-ADE3F83750F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domaim", "Domaim", "{0F6CF38A-D0B7-465B-87B3-77EFD2EDD492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanicPop.Domain", "TitanicPop.Domain\TitanicPop.Domain.csproj", "{EBA2FD26-3C11-4A6C-B653-160351AEC4A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{D5855024-FF01-4940-BD89-0B1510C6B3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanicPop.Repositories", "TitanicPop.Repositories\TitanicPop.Repositories.csproj", "{20C0A846-6544-4C00-AC10-4C902761E748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF8FBDE9-56DA-40B1-8123-99924339CE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8FBDE9-56DA-40B1-8123-99924339CE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8FBDE9-56DA-40B1-8123-99924339CE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8FBDE9-56DA-40B1-8123-99924339CE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D24FA7C-19A3-4C64-A5B0-ADE3F83750F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D24FA7C-19A3-4C64-A5B0-ADE3F83750F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D24FA7C-19A3-4C64-A5B0-ADE3F83750F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D24FA7C-19A3-4C64-A5B0-ADE3F83750F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA2FD26-3C11-4A6C-B653-160351AEC4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA2FD26-3C11-4A6C-B653-160351AEC4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA2FD26-3C11-4A6C-B653-160351AEC4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA2FD26-3C11-4A6C-B653-160351AEC4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C0A846-6544-4C00-AC10-4C902761E748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C0A846-6544-4C00-AC10-4C902761E748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C0A846-6544-4C00-AC10-4C902761E748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C0A846-6544-4C00-AC10-4C902761E748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF8FBDE9-56DA-40B1-8123-99924339CE86} = {FD5F8D4A-8398-4457-A5C9-46A9B3A4065D}
+		{4D24FA7C-19A3-4C64-A5B0-ADE3F83750F9} = {C6D312D2-EE27-47E2-9F1C-1ED0C1BB18CD}
+		{EBA2FD26-3C11-4A6C-B653-160351AEC4A0} = {0F6CF38A-D0B7-465B-87B3-77EFD2EDD492}
+		{20C0A846-6544-4C00-AC10-4C902761E748} = {D5855024-FF01-4940-BD89-0B1510C6B3AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A408F2DD-ED80-4D8A-99FB-E2C8AEE74707}
+	EndGlobalSection
+EndGlobal
