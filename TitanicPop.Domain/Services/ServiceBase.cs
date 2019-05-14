@@ -13,10 +13,5 @@ namespace TitanicPop.Domain.Services
         {
             _repository = repository;
         }
-
-        public IEnumerable<TEntity> GetAll()
-        {
-            return _repository.GetAll();
-        }
     }
 }

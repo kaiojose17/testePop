@@ -7,10 +7,9 @@ namespace TitanicPop.Domain.Entities
 {
     public class Passenger
     {
-
         public string PassengerId { get; set; }
-        public string Survived { get; set; }
-        public string Pclass { get; set; }
+        public bool Survived { get; set; }
+        public int Pclass { get; set; }
         public string Name { get; set; }
         public string Sex { get; set; }
         public string Age { get; set; }

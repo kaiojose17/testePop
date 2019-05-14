@@ -6,6 +6,5 @@ namespace TitanicPop.Domain.Services
 {
     public interface IServiceBase<TEntity>
     {
-        IEnumerable<TEntity> GetAll();
     }
 }

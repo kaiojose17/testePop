@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CsvHelper" Version="12.1.2" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\TitanicaPop.Commom\TitanicaPop.Commom.csproj" />
     <ProjectReference Include="..\TitanicPop.Domain\TitanicPop.Domain.csproj" />
   </ItemGroup>
 
